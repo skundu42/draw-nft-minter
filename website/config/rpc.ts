@@ -36,6 +36,8 @@ const RPC = {
   [ChainId.MOONRIVER]: "https://rpc.moonriver.moonbeam.network",
   [ChainId.TELOS]: "https://mainnet.telos.net/evm",
   [ChainId.LIBERTY21]: "https://liberty20.shardeum.org",
+  [ChainId.MANTLE]: "https://rpc.testnet.mantle.xyz/",
+
 };
 
 export default RPC

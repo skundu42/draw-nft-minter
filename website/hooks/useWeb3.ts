@@ -9,7 +9,7 @@ import RPC from '../config/rpc'
  * Recreate web3 instance only if the provider change
  */
 const useWeb3 = () => {
-  const { library, chainId = 8081 } = useWeb3React()
+  const { library, chainId = 5001 } = useWeb3React()
   const refEth = useRef(library||null)
 
   const [web3, setweb3] = useState(

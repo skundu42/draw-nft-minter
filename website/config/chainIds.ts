@@ -30,4 +30,5 @@ export enum ChainId {
   HARDHAT = 31337,
   MOONBEAM = 1284,
   LIBERTY21 = 8081,
+  MANTLE = 5001,
 }

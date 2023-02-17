@@ -5,7 +5,7 @@ import { InjectedConnector } from '@web3-react/injected-connector'
 export const supportedChainIds = Object.values(ChainId) as number[]
 
 export const injected = new InjectedConnector({
-  supportedChainIds:[8081],
+  supportedChainIds:[5001],
 })
 
 export const wallets = [
